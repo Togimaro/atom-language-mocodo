@@ -1,0 +1,28 @@
+'scopeName': 'source.mocodo'
+'name': 'Mocodo'
+'fileTypes': [
+	'mcd'
+	'mocodo'
+]
+
+'patterns': [
+	{
+		'begin': '^'
+		'end': ':'
+		'patterns': [
+			{
+				'begin': '\\['
+				'end': '\\]'
+				'name': 'markup.italic.mocodo'
+			}
+			{
+				'match': '_?[01][1N][><]?'
+				'name': 'constant.numeric.mocodo'
+			}
+			{
+				'match': '\\w'
+				'name': 'constant.mocodo'
+			}
+		]
+	}
+]

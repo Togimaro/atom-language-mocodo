@@ -21,7 +21,7 @@
 			}
 			{
 				'match': '\\w'
-				'name': 'constant.mocodo'
+				'name': 'entity.name.function'
 			}
 		]
 	}

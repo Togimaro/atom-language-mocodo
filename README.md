@@ -4,7 +4,7 @@ Adds syntax highlighting to [Mocodo](https://github.com/laowantong/mocodo/) file
 
 ## Install
 
-Install the package `language-mocodo` in Atom (Preferences->Packages) or Atom's package manager from a shell:
+Install the package `language-mocodo` in Atom (Settings->Install) or Atom's package manager from a shell:
 
 ```bash
 $ apm install language-mocodo

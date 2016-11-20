@@ -13,7 +13,7 @@
 			{
 				'begin': '\\['
 				'end': '\\]'
-				'name': 'markup.italic.mocodo'
+				'name': 'string.unquoted.mocodo'
 			}
 			{
 				'match': '_?[01][1N][><]?'
@@ -21,7 +21,7 @@
 			}
 			{
 				'match': '\\w'
-				'name': 'entity.name.function'
+				'name': 'entity.name.function.mocodo'
 			}
 		]
 	}

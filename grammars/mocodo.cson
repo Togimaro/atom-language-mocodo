@@ -16,7 +16,7 @@
 				'name': 'markup.italic.mocodo'
 			}
 			{
-				'match': '_?[01][1N][><]?'
+				'match': '(_11|..)[<>]?'
 				'name': 'constant.numeric.mocodo'
 			}
 			{
